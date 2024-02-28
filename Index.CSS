@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.Container{
+    position: relative;
+}
+.banner{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Image/Background.png);
+background-size: cover;
+    align-items: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    padding: 0 100px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.Icon {
+    width: 55px;
+}
+header ul {
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0 0;
+    height: 100%;
+}
+header ul li
+{
+    list-style: none;
+    line-height: 50px;
+}
+
+header ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    text-align: center;
+}
+
+header ul li.Active {
+    background: #235984;
+    color: #fff;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+header ul li:hover
+{
+    background: #2196f3;
+    color: #fff;
+}
+
+
+.to-top {
+    background: #27ae60;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.to-top.active{
+    pointer-events: auto;
+    opacity: 1;
+}
+.d{
+    display: flex;
+    position: relative;
+    left: 35%;
+    align-items: center;
+}
+.Animals{
+    background: #00a724;
+    height: 10vh;
+    width: 15%;
+    border-top-Right-radius: 5px;
+    border-bottom-Right-radius: 5px;
+    border-bottom-Left-radius: 10px;
+    border-Top-Left-radius: 10px;
+    position: relative;
+    display: flex;
+}
+.Animals .Demi
+{
+    background: #2196f3;
+    width: 26%;
+    border-bottom-Left-radius: 10px;
+    border-Top-Left-radius: 10px;
+}
+.Animals .Hello
+{
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+.Animals i{
+    position: relative;
+    top: 3%;
+    left: 3%;
+}
+
+.Animals .Text1 {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    left: 10%;
+    top: -3px;
+}
+
+.Animals .odometer1 {
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    top: 20%;
+    right: 30%;
+}
+
+.banner .content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  .banner .content h1{
+    font-size: 80px;
+    margin-top: 80px;
+    font-weight: 700;
+  }
+  
+  .banner .content p{
+    margin: 20px auto;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 40px;
+  }
+
+  .Reserves{
+    background: rgb(15, 91, 146);
+    height: 10vh;
+    width: 15%;
+    border-top-Right-radius: 5px;
+    border-bottom-Right-radius: 5px;
+    border-bottom-Left-radius: 10px;
+    border-Top-Left-radius: 10px;
+    position: relative;
+    left: 1%;
+    display: flex;
+}
+.Reserves .Demi
+{
+    background: #000000;
+    width: 26%;
+    border-bottom-Left-radius: 10px;
+    border-Top-Left-radius: 10px;
+}
+.Reserves .Hello
+{
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+.Reserves img{
+    color: #fff;
+    width: 100%;
+}
+.Reserves .Text1 {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    left: 10%;
+    top: -3px;
+}
+
+.Reserves .odometer2 {
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    top: 20%;
+    right: 30%;
+}
+
+/* Assuming you have a separate CSS file linked */
+
+/* Contact Us Section */
+.contact-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #007bff;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}

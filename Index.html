@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/a221019bc4.js" crossorigin="anonymous"></script>
+        <title>KENYA PROTECTION SERVICES</title>
+        <link rel="stylesheet" href="Index.CSS">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
+    </head>
+    <body>
+        <div class="Container"></div>
+            <div class="banner" id="Home">
+                <div class="content">
+                    <h1>KENYA PROTECTION SERVICES</h1>
+                    <p class="T2">WE PROTECT ANIMALS WILDLIFE IN KENYA</p>
+                </div>
+            </div>
+            <header>
+                <a href="#Home"><img src="Image/Icon.png" alt="" class="Icon"></a>
+                <ul>
+                    <li class="Active"><a href="#Home">Home</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Contact">Contact Us</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <section id="About">
+                        <H2>About Kenya Protection Services</H2>
+                        <div class="d"> <div class="Animals">
+                            <div class="Demi"> <a class="Hello"><i class="fa-solid fa-paw fa-3x"></i></a></div>
+                            <p class="Text1" >Animals Saved:</p>
+                            <p class="odometer1" id="odometer1" >0</p>
+                        </div>
+                        <div class="Reserves">
+                            <div class="Demi"> <a class="Hello"><img src="Image/téléchargement__2_-removebg-preview (1).png" alt="" srcset=""></a></div>
+                            <p class="Text1" >Reserves Made:</p>
+                            <p class="odometer2" id="odometer2" >0</p>
+                        </div></div>
+                    <div class="about-section">
+                        <h2>About Kenya Protection Services</h2>
+                        <p>
+                            At Kenya Protection Services, we are dedicated to safeguarding the precious wildlife and ecosystems of Kenya. Our organization is committed to the conservation and protection of the diverse range of species that call Kenya home, from majestic elephants and rhinos to the smallest of creatures.
+                        </p>
+                        <h3>Our Mission:</h3>
+                        <p>
+                            Our mission is to protect and preserve Kenya's rich biodiversity by combating poaching, habitat loss, and other threats to wildlife. We strive to promote sustainable coexistence between humans and wildlife while raising awareness about the importance of conservation.
+                        </p>
+                        <h3>Our Vision:</h3>
+                        <p>
+                            To create a future where Kenya's wildlife thrives in their natural habitats, contributing to the ecological balance and cultural heritage of the nation, for the benefit of present and future generations.
+                        </p>
+                        <h3>What Sets Us Apart:</h3>
+                        <ul>
+                            <li>
+                                <strong>Field Expertise:</strong> Our team consists of dedicated conservationists, wildlife experts, and community members who possess a deep understanding of Kenya's ecosystems and the challenges facing its wildlife.
+                            </li>
+                            <li>
+                                <strong>Holistic Approach:</strong> We employ a holistic approach to conservation, addressing not only the direct threats to wildlife but also the underlying socio-economic factors driving these threats.
+                            </li>
+                            <li>
+                                <strong>Collaborative Partnerships:</strong> We believe in the power of collaboration and actively partner with government agencies, NGOs, local communities, and international organizations to maximize our impact and reach.
+                            </li>
+                            <li>
+                                <strong>Education and Outreach:</strong> Through educational programs, outreach initiatives, and community workshops, we strive to raise awareness about wildlife conservation and foster a sense of stewardship towards Kenya's natural heritage.
+                            </li>
+                            <li>
+                                <strong>Innovative Solutions:</strong> We continuously explore innovative approaches and technologies to enhance our conservation efforts, from anti-poaching strategies to wildlife monitoring and habitat restoration projects.
+                            </li>
+                        </ul>
+                        <h3>Our Conservation Initiatives:</h3>
+                        <ul>
+                            <li>
+                                <strong>Anti-Poaching Operations:</strong> Deploying ranger teams to protect wildlife from poaching and illegal trafficking.
+                            </li>
+                            <li>
+                                <strong>Community Engagement:</strong> Working closely with local communities to address human-wildlife conflict, promote sustainable livelihoods, and foster conservation-friendly practices.
+                            </li>
+                            <li>
+                                <strong>Habitat Restoration:</strong> Initiating habitat restoration projects to rehabilitate degraded ecosystems and create corridors for wildlife movement.
+                            </li>
+                            <li>
+                                <strong>Research and Monitoring:</strong> Conducting scientific research and monitoring programs to better understand wildlife populations, behavior, and ecology.
+                            </li>
+                        </ul>
+                        <p>
+                            <strong>Join Us in Protecting Kenya's Wildlife:</strong> Whether you're a passionate conservationist, a concerned citizen, or a corporate entity looking to make a difference, Kenya Protection Services invites you to join us in our mission to protect Kenya's precious wildlife heritage. Together, we can ensure a brighter future for Kenya's wildlife and the ecosystems they inhabit.
+                        </p>
+                        <p>
+                            Contact us today to learn more about our conservation initiatives and how you can support our efforts to safeguard Kenya's wildlife for generations to come.
+                        </p>
+                    </div>
+                    
+                </section>
+                <section id="Contact">
+                    <div class="contact-section">
+                        <h2>Contact Us</h2>
+                        <p>Have questions or want to learn more about our services? Drop us a message using the form below, and we'll get back to you as soon as possible.</p>
+                
+                        <!-- Contact Form -->
+                        <form class="contact-form" action="https://formsubmit.co/youritarvydas974@gmail.com" method="POST">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required>
+                
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" required>
+                
+                            <label for="message">Message:</label>
+                            <textarea id="message"  name="message" required></textarea>
+                
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                
+                    <footer>
+                        <!-- Add your footer content here -->
+                        <p>&copy; 2024 Kenya Protection Services. All rights reserved.</p>
+                    </footer>
+            </section>
+        </div>
+            <a href="#" class="to-top"><i class="fa-solid fa-arrow-up fa-beat-fade"></i></a>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+           <script>
+            let value1 = 10000;
+            let value2 = 100
+            setInterval( () => {
+                odometer1.innerHTML = value1;
+                odometer2.innerHTML = value2;
+                value1 += 1;
+                value2 += 1;
+            },3000)
+           </script>
+            <script type="module" src="JS.JS"></script>
+        </body>
+</html>
